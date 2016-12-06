@@ -1,0 +1,16 @@
+info:
+  component: Account Service
+  
+spring:
+ application:
+  name: account-service
+
+eureka:
+ client:
+  serviceUrl: 
+   defaultZone: http://localhost:1111/eureka/
+ instance:
+  hostname: localhost
+  preferIpAddress: false
+  leaseRenewalIntervalInSeconds: 30 # DO NOT DO THIS IN PRODUCTION  
+    

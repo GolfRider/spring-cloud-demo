@@ -1,0 +1,23 @@
+info:
+  component: Zuul Gateway Service
+  
+spring:
+ application:
+  name: gateway-service
+
+eureka:
+ client:
+  serviceUrl: 
+   defaultZone: http://localhost:1111/eureka/
+ instance:
+  hostname: localhost
+  preferIpAddress: false
+  leaseRenewalIntervalInSeconds: 30 # DO NOT DO THIS IN PRODUCTION
+      
+zuul:
+ ignoredServices : '*'
+ routes:
+  dashboard-service: 
+   path: /user/**
+   serviceId: dashboard-service
+    
