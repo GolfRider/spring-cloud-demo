@@ -11,6 +11,8 @@
 | Hystrix       | Circuit Breakers, Bulkheading  |   
 | Hystrix Dashboard | Metrics Dashboard          |  
 | Spring Boot   | Microservices                  |     
+| Spring Cloud  | To build cloud-native apps     |     
+
 
 Note: Ports are randomly assigned to each microservice. So you can spawn multiple instances 
       of the same service even on localhost.
