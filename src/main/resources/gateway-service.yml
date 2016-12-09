@@ -20,4 +20,7 @@ zuul:
   dashboard-service: 
    path: /user/**
    serviceId: dashboard-service
+  dummy-service:
+   path: /dummy_info/**
+   serviceId: dummy-service 
     

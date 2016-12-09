@@ -1,4 +1,4 @@
-package com.microservices.composite.dashboard;
+package com.microservices.composite.dummy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,12 +10,12 @@ import com.microservices.utils.CommonUtils;
 @EnableCircuitBreaker
 @SpringBootApplication 
 @EnableDiscoveryClient
-public class DashboardServer {
+public class DummyServer {
 
 	public static void main(String args[]){
-		 System.setProperty("spring.config.name", "dashboard-service");
+		 System.setProperty("spring.config.name", "dummy-service");
 		 System.getProperties().put( "server.port", CommonUtils.getFreePort() );
-		 SpringApplication.run(DashboardServer.class, args);
+		 SpringApplication.run(DummyServer.class, args);
 		
 	}
 }

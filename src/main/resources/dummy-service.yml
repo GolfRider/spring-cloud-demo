@@ -1,9 +1,9 @@
 info:
-  component: Dashboard Service
+  component: Dummy Service
   
 spring:
  application:
-  name: dashboard-service
+  name: dummy-service
   
  
 eureka:
@@ -17,7 +17,7 @@ eureka:
   preferIpAddress: false
   leaseRenewalIntervalInSeconds: 30 # DO NOT DO THIS IN PRODUCTION
   metadata-map:
-   server:
+   management:
     port: ${server.port}
  
  

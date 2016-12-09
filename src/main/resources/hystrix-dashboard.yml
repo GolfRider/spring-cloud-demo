@@ -1,0 +1,27 @@
+info:
+  component: Hystrix Dashboard
+
+spring:
+ application:
+  name: hysterix-dashboard
+  
+turbine:
+ appConfig: gateway-service, dashboard-service, dummy-service
+ clusterNameExpression: "'default'"
+ 
+# aggregator:
+#  clusterConfig: DASHBOARD-SERVICE
+  
+    
+
+eureka:
+ client:
+  serviceUrl: 
+   defaultZone: http://localhost:1111/eureka/
+ instance:
+  hostname: localhost
+  preferIpAddress: false
+  leaseRenewalIntervalInSeconds: 30 # DO NOT DO THIS IN PRODUCTION  
+    
+    
+    
