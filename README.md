@@ -14,8 +14,8 @@
 
 
 
-#### 1. Eureka Screenshot
-<img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/eureka-discovery.png" width="700" height="250" />
+#### <span style="color:blue"> 1. Eureka Screenshot </span>
+<img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/eureka-discovery.png" width="700" height="230" />
 
 #### 2. Hystrix Screenshot
 <img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/hystrix-dashboard.png" width="700" height="300" />
