@@ -34,7 +34,7 @@ To run the project:
 
 #### 2. Hystrix Screenshot
 A brief note on Hystrix:
-- Hysterix belongs to client side(CLIENT-API side)
+- Hysterix belongs to client side(ie, Client-API side)
 - Provides fault tolerant communications between microservices with consistent latency levels
 - Provides breathing space for the downstream services to recover
 - Provides bounded resource utilization for each downstream/external services
