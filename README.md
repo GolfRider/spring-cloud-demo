@@ -33,4 +33,11 @@ To run the project:
 
 
 #### 2. Hystrix Screenshot
+A brief note on Hystrix:
+- Hysterix belongs to client side(CLIENT-API side)
+- Provides fault tolerant communications between microservices with consistent latency levels
+- Provides breathing space for the downstream services to recover
+- Provides bounded resource utilization for each downstream/external services
+- Provides time-out/fallback mechanisms
+
 <img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/hystrix-dashboard.png" width="700" height="300" />
