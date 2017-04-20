@@ -41,6 +41,7 @@ A brief note on Hystrix:
 - Provides time-out/fallback mechanisms
 
 Alt-H2 To see graphs in Hystrix Dashboard, for example: 
+-------------------------------------------------------
  - Go to your hystrix dashboard page: http://hystrix-dashboard-url/hystrix.stream  (Replace with your Hystrix Dashboard Url)
  - Enter target service url in the text-box, say (http://localhost:53415/hystrix.stream)  of (or your web service url)
    - Note: Invoke the target service (Dashboard Service) few times to see the graph plot
