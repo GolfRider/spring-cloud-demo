@@ -41,9 +41,9 @@ A brief note on Hystrix:
 - Provides time-out/fallback mechanisms
 
 For example: 
- - http://<dashboard-service-url>/details/1 
- - http://<hystrix-dashboard-url>/hystrix.stream  [Hystrix Dashboard Url]
- - Enter service url in the box, say (http://localhost:53415/hystrix.stream)  of (Dashboard Web Service)
+ - http://dashboard-service-url/details/1 
+ - http://hystrix-dashboard-url/hystrix.stream  [Hystrix Dashboard Url]
+ - Enter target service url in the box, say (http://localhost:53415/hystrix.stream)  of (Dashboard Web Service)
    - Note: Invoke the target service (Dashboard Service) few times to see the graph plot
 
 <img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/hystrix-dashboard.png" width="700" height="300" />
