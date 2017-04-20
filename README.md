@@ -40,8 +40,8 @@ A brief note on Hystrix:
 - Provides bounded resource utilization for each downstream/external services
 - Provides time-out/fallback mechanisms
 
-##### 3. To see graphs in Hystrix Dashboard, for example: 
--------------------------------------------------------
+##### <span style="color:blue">3. To see graphs in Hystrix Dashboard, for example: </span>
+
  - Go to your hystrix dashboard page: http://hystrix-dashboard-url/hystrix.stream  (Replace with your Hystrix Dashboard Url)
  - Enter target service url in the text-box, say (http://localhost:53415/hystrix.stream)  of (or your web service url)
    - Note: Invoke the target service (Dashboard Service) few times to see the graph plot
