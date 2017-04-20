@@ -40,10 +40,10 @@ A brief note on Hystrix:
 - Provides bounded resource utilization for each downstream/external services
 - Provides time-out/fallback mechanisms
 
-For example: 
- - http://dashboard-service-url/details/1 
- - http://hystrix-dashboard-url/hystrix.stream  [Hystrix Dashboard Url]
- - Enter target service url in the box, say (http://localhost:53415/hystrix.stream)  of (Dashboard Web Service)
+To see graphs in Hystrix Dashboard, for example: 
+ - Go to your hystrix dashboard page: http://hystrix-dashboard-url/hystrix.stream  (Replace with your Hystrix Dashboard Url)
+ - Enter target service url in the text-box, say (http://localhost:53415/hystrix.stream)  of (or your web service url)
    - Note: Invoke the target service (Dashboard Service) few times to see the graph plot
-
+           - Hit this url for this test case: http://dashboard-service-url/details/1 
+ 
 <img src="https://github.com/GolfRider/spring-cloud-demo/blob/master/hystrix-dashboard.png" width="700" height="300" />
